@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> The code selects the highest and lowest marks in a least of 'marks' stored in an array </p>
+
+    <script>
+        marks = [38,58,40,61,42,81,21,37];
+        console.log('Your Marks are: '+marks);
+        for (let i=0; i<marks.length; i++){
+            marks.sort(); 
+        }
+        console.log('Your lowest mark is: '+marks[0]);
+        console.log('Your highest mark is: '+marks[7]);
+        
+    </script>
+</body>
+</html>
